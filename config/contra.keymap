@@ -29,9 +29,9 @@
         raise {
             bindings = <
     &none   &none   &kp EXCL   &kp AT      &kp POUND   &none   &none      &none      &none      &kp C_VOL_DN   &kp C_VOL_UP   &kp DEL
-    &none   &none   &kp DLLR   &kp PRCNT   &kp CARET   &none   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT      &none          &none
+    &none   &none   &kp DLLR   &kp PRCNT   &kp CARET   &none   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT      &kp BSLH       &kp GRAVE
     &none   &none   &kp AMPS   &kp STAR    &none       &none   &none      &none      &kp HOME   &kp END        &kp PG_UP      &kp INS
-    &none   &none   &none       &none      &none       &none   &none      &none      &kp LPAR   &kp RPAR       &kp PG_DN      &kp PSCRN
+    &none   &none   &none      &none       &none       &none   &none      &none      &kp LPAR   &kp RPAR       &kp PG_DN      &kp PSCRN
             >;
         };
 
