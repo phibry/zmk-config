@@ -28,28 +28,28 @@
          
         raise {
             bindings = <
-    &trans   &kp EXCL   &kp AT   &kp POUND   &kp DLLR   &kp PRCNT   &kp CARET   &kp AMPS   &kp STAR   &kp C_VOL_DN  &kp C_VOL_UP   &kp DEL
-    &trans   &trans     &trans   &trans      &trans     &trans      &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT     &trans         &trans
-    &trans   &trans     &trans   &trans      &trans     &trans      &trans      &trans     &kp HOME   &kp END       &kp PG_UP      &kp INS
-    &trans   &trans     &trans   &trans      &trans     &kp SPACE   &trans      &trans     &kp LPAR   &kp RPAR      &kp PG_DN      &kp PSCRN
+    &none   &none   &kp EXCL   &kp AT      &kp POUND   &none   &none      &none      &none      &kp C_VOL_DN   &kp C_VOL_UP   &kp DEL
+    &none   &none   &kp DLLR   &kp PRCNT   &kp CARET   &none   &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT      &none          &none
+    &none   &none   &kp AMPS   &kp STAR    &none       &none   &none      &none      &kp HOME   &kp END        &kp PG_UP      &kp INS
+    &none   &none   &none       &none      &none       &none   &none      &none      &kp LPAR   &kp RPAR       &kp PG_DN      &kp PSCRN
             >;
         };
 
         number {
             bindings = <
-    &trans   &trans   &kp KP_N1   &kp KP_N2   &kp KP_N3   &trans   &trans     &trans     &trans   &trans      &trans   &trans
-    &trans   &trans   &kp KP_N4   &kp KP_N5   &kp KP_N6   &trans   &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &trans   &trans
-    &trans   &trans   &kp KP_N7   &kp KP_N8   &kp KP_N9   &trans   &trans     &trans     &trans   &trans      &trans   &trans
-    &trans   &trans   &trans      &trans      &kp KP_N0   &trans   &trans     &trans     &trans   &trans      &trans   &trans
+    &none   &none   &kp KP_N1   &kp KP_N2   &kp KP_N3   &none   &none      &none      &none    &none       &none   &none
+    &none   &none   &kp KP_N4   &kp KP_N5   &kp KP_N6   &none   &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &none   &none
+    &none   &none   &kp KP_N7   &kp KP_N8   &kp KP_N9   &none   &none      &none      &none    &none       &none   &none
+    &none   &none   &none       &none       &kp KP_N0   &none   &none      &none      &none    &none       &none   &none
             >;
         };
 
         function {
             bindings = <
-    &trans   &trans   &trans   &trans   &trans   &trans   &trans   &kp F1    &kp F2    &kp F3    &trans   &trans
-    &trans   &trans   &trans   &trans   &trans   &trans   &trans   &kp F4    &kp F5    &kp F6    &trans   &trans
-    &trans   &trans   &trans   &trans   &trans   &trans   &trans   &kp F7    &kp F8    &kp F9    &trans   &trans
-    &trans   &trans   &trans   &trans   &trans   &trans   &trans   &kp F10   &kp F11   &kp F12   &trans   &trans
+    &none   &none   &none   &none   &none   &none   &none   &kp F1    &kp F2    &kp F3    &none   &none
+    &none   &none   &none   &none   &none   &none   &none   &kp F4    &kp F5    &kp F6    &none   &none
+    &none   &none   &none   &none   &none   &none   &none   &kp F7    &kp F8    &kp F9    &none   &none
+    &none   &none   &none   &none   &none   &none   &none   &kp F10   &kp F11   &kp F12   &none   &none
             >;
         };
     };
