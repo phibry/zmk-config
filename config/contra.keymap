@@ -19,8 +19,9 @@
             label = "ZM_hyper";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT &kp LCTRL &kp LGUI &kp LALT>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings = <&kp LSHFT &kp LCTRL &kp LGUI &kp LALT>;
         };
     };
     
