@@ -14,12 +14,11 @@
 
 / {
     macros {
-        HYPER(hyper
-            compatible = "zmk,behavior-macro";
+        HYPER(hyper,
             wait-ms = <0>;
             tap-ms = <0>;
             bindings
-                = <&macro_press &kp LSHIFT &kp LCTRL &kp LGUI &kp LALT>
+                = <&macro_press &kp LSHIFT &kp LCTRL &kp LGUI &kp LALT>;
         )
     };
     
