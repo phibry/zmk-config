@@ -14,12 +14,12 @@
 
 / {
     macros {
-        HYPER: hyper {
+        HYPER(hyper
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <macro_press &kp LSHIFT &kp LCTRL &kp LGUI &kp LALT
-        }
+        )
     };
     
     keymap {
