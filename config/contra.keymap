@@ -20,9 +20,8 @@
             bindings
                 = <macro_press &kp LSHIFT &kp LCTRL &kp LGUI &kp LALT
         }
-    }
-};
-/ {
+    };
+    
     keymap {
         compatible = "zmk,keymap";
 
