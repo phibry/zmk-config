@@ -12,14 +12,14 @@
 #define RAISE    1
 #define LOWER    2
 
-/ {
-    macros {
-        HYPER(hyper,
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings
-                = <&macro_press &kp LSHIFT &kp LCTRL &kp LGUI &kp LALT>;
-        )
+/ {    
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <J K>;
+            bindings = <&kp ESC>;
+        };
     };
     
     keymap {
