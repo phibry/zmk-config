@@ -50,8 +50,8 @@
             bindings = <
     &trans   &none    &kp N1   &kp N2   &kp N3   &none    &none      &none      &none      &kp C_VOL_DN   &kp C_VOL_UP   &kp DEL
     &trans   &none    &kp N4   &kp N5   &kp N6   &none    &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT      &kp BSLH       &kp GRAVE
-    &trans   &none    &kp N7   &kp N8   &kp N9   &none    &none      &none      &kp HOME   &kp END        &kp PG_UP      &kp INS
-    &trans   &trans   &trans   &trans   &kp N0   &trans   &none      &none      &kp LPAR   &kp RPAR       &kp PG_DN      &kp PSCRN
+    &trans   &none    &kp N7   &kp N8   &kp N9   &kp N0   &none      &none      &kp HOME   &kp END        &kp PG_UP      &kp INS
+    &trans   &trans   &trans   &kp N0   &trans   &trans   &none      &none      &kp LPAR   &kp RPAR       &kp PG_DN      &kp PSCRN
             >;
         };
     };
